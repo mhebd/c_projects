@@ -2,10 +2,11 @@
 
 int main()
 {
-  // char name[10];
-  // printf("Enter Your Name: ");
-  // scanf("%c", &name);
+  char name[10];
 
-  // printf("Welcome, %c", name);
+  printf("Enter your name: ");
+  scanf("%s", &*name);
+
+  printf("Welcome, %s! ", name);
   return 0;
 }
